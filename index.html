@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio — Daniel Martínez Higes</title>
+<meta name="description" content="Portfolio personal: proyectos, CV y contacto.">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/main.js"></script>
+<script defer src="assets/js/cookies.js"></script>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Daniel<span>Martínez</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav id="primary-nav" class="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="projects.html">Proyectos</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hola, soy <span class="accent">Daniel Martínez</span></h1>
+      <h1>Bienvenido a mi Portfolio</h1>
+
+      <p class="lead">Desarrollador/a que crea webs limpias, accesibles y rápidas.</p>
+      <div class="cta">
+        <a class="btn" href="projects.html">Ver proyectos</a>
+        <a class="btn btn-outline" href="cv.html">Ver CV</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="assets/img/hero.svg" alt="Ilustración de desarrollo web" loading="lazy">
+    </div>
+  </section>
+
+  <section class="home-projects">
+    <h2>Proyectos Destacados</h2>
+    <div class="grid cards-3">
+      <article class="card">
+        <img src="assets/img/project1.svg" alt="Proyecto 1">
+        <div class="card-body">
+          <h3>Proyecto One</h3>
+          <p>Landing page responsive con Grid y accesibilidad AA.</p>
+          <a class="btn small" href="projects.html#proyecto-1">Detalles</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="assets/img/project2.svg" alt="Proyecto 2">
+        <div class="card-body">
+          <h3>Proyecto Two</h3>
+          <p>SPA ligera con menú móvil accesible y dark mode.</p>
+          <a class="btn small" href="projects.html#proyecto-2">Detalles</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="assets/img/project3.svg" alt="Proyecto 3">
+        <div class="card-body">
+          <h3>Proyecto Three</h3>
+          <p>Portfolio minimalista con tipografías locales y rendimiento 95+.</p>
+          <a class="btn small" href="projects.html#proyecto-3">Detalles</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Daniel Martínez — Todos los derechos reservados.</p>
+    <nav class="footer-nav">
+      <a href="privacy.html">Política de privacidad</a>
+    </nav>
+  </div>
+</footer>
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+  <div class="container cookie-inner">
+    <p>Este sitio utiliza cookies técnicas para mejorar tu experiencia. <a href="privacy.html#cookies">Más info</a>.</p>
+    <button id="cookie-accept" class="btn">Aceptar</button>
+  </div>
+</div>
+
+</body>
+</html>
